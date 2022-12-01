@@ -1,10 +1,10 @@
-package com.cursoandroid.sandy.classesmetodospratica;
+package com.cursoandroid.sandy.classesmetodospratica.classes;
 
-class Animal {
+public class Animal {
 
-    int tamanho;
-    String cor;
-    double peso;
+    protected int tamanho;
+    protected String cor;
+    protected double peso;
 
     // Getters e Setters
     void setCor(String cor) {
@@ -21,7 +21,7 @@ class Animal {
     }
 
     void correr() {
-        System.out.println("Correr como um animal");
+        System.out.println("Correr como um");
     }
 
 }
